@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CopyableDescription">
+        <item name="@android:textSize">16dip</item>
+        <item name="@android:textColor">@color/dark_grey</item>
+        <item name="@android:singleLine">true</item>
+        <item name="@android:ellipsize">end</item>
+        <item name="@android:layout_width">fill_parent</item>
+        <item name="@android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="BigText">
+        <item name="@android:textSize">20dip</item>
+        <item name="@android:textColor">@color/text</item>
+    </style>
+
+    <style name="Copyable" parent="BigText">
+        <item name="@android:tag">copyable</item>
+        <item name="@android:clickable">true</item>
+    </style>
+
+    <style name="BigTextSingleLine" parent="BigText">
+        <item name="@android:singleLine">true</item>
+        <item name="@android:ellipsize">end</item>
+        <item name="@android:layout_height">wrap_content</item>
+        <item name="@android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="CopyableSingleLine" parent="Copyable">
+        <item name="@android:singleLine">true</item>
+        <item name="@android:ellipsize">end</item>
+        <item name="@android:layout_height">wrap_content</item>
+        <item name="@android:layout_width">fill_parent</item>
+    </style>
+
+    <style name="ItemActivity">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:padding">15dip</item>
+        <item name="android:background">@color/background</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.preference.EditTextPreference
+            android:key="@string/location"
+            android:title="@string/location_title"
+            android:summary="@string/location_summary"
+            android:defaultValue="@string/location_default"/>
+    <android.preference.EditTextPreference
+            android:key="@string/dropbox_location"
+            android:title="@string/dropbox_location_title"
+            android:summary="@string/dropbox_location_summary"
+            android:defaultValue="@string/dropbox_location_default"/>
+</PreferenceScreen>

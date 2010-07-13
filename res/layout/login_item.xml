@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ItemActivity">
+    <TextView style="@style/CopyableDescription"
+              android:text="URL"/>
+
+    <TextView android:id="@+id/item_url"
+              style="@style/BigTextSingleLine"
+              android:paddingBottom="10dip"/>
+    
+    <TextView style="@style/CopyableDescription"
+              android:text="Username"/>
+
+    <TextView android:id="@+id/login_item_username"
+              style="@style/CopyableSingleLine"
+              android:paddingBottom="10dip"/>
+
+    <TextView style="@style/CopyableDescription"
+              android:text="Password"/>
+
+    <TextView android:id="@+id/login_item_password"
+              style="@style/CopyableSingleLine"/>
+</LinearLayout>

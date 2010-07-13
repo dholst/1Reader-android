@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:paddingTop="40dip"
+              android:paddingLeft="10dip"
+              android:paddingRight="10dip"
+              android:background="@color/background">
+
+    <EditText android:id="@+id/password"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="Password"
+              android:textSize="20dip"
+              android:paddingBottom="10dip"
+              android:inputType="textPassword"/>
+
+    <Button android:id="@+id/unlock_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Unlock"
+            android:textSize="20dip"
+            android:paddingBottom="10dip"/>
+
+    <TextView android:id="@+id/unlock_message"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textColor="@color/red"
+              android:textSize="20dip"
+              android:paddingTop="10dip"
+              android:visibility="invisible"/>
+
+</LinearLayout>

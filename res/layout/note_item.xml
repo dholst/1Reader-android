@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/ItemActivity">
+    <TextView style="@style/Copyable"
+              android:id="@+id/note_item_note"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"/>
+</LinearLayout>

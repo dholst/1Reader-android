@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/dropbox_layout"
+              android:layout_height="fill_parent"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:padding="10dip">
+
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:textSize="18dip"
+              android:paddingBottom="15dip"
+              android:text="Enter your Dropbox credentials"/>
+
+    <EditText android:id="@+id/dropbox_username"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="Email"
+              android:textSize="18dip"
+              android:paddingBottom="15dip"
+              android:inputType="text"/>
+
+    <EditText android:id="@+id/dropbox_password"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:hint="Password"
+              android:textSize="18dip"
+              android:paddingBottom="15dip"
+              android:inputType="textPassword"/>
+
+    <Button android:id="@+id/dropbox_authorize"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Authorize"
+            android:textSize="18dip"/>
+</LinearLayout>

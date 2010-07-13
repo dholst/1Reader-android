@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">1Reader</string>
+
+    <string name="location">Location</string>
+    <string name="location_title">Location</string>
+    <string name="location_summary">The location of the keychain on your local SD card</string>
+    <string name="location_default">/sdcard/1Password.agilekeychain</string>
+
+    <string name="dropbox_location">DropboxLocation</string>
+    <string name="dropbox_location_title">Dropbox Location</string>
+    <string name="dropbox_location_summary">The location of the keychain on Dropbox</string>
+    <string name="dropbox_location_default">/1Password/1Password.agilekeychain</string>
+
+    <string name="settings_label">Settings</string>
+    <string name="sync_label">Sync</string>
+</resources>

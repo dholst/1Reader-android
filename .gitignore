@@ -1,0 +1,8 @@
+*.iml
+*.ipr
+*.iws
+bin
+gen
+out
+local.properties
+MyDrobpoxToken.java
